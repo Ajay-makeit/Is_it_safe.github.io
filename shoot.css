@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 90vh;
+    width: 100vw;
+}
+.container{
+    text-align: center;
+    margin: auto;
+    width: auto;
+    height: 100vh;
+    font-family: 'poppins', sans-serif;
+}
+
+#any_img{
+    height: 70%;
+}
+
+button{
+    width: 10%;
+    height: 3rem;
+    font-family: 'poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    background-color: rgb(48, 48, 48);
+    color: rgb(180, 180, 180);
+    border-radius: 0.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+@media screen and (max-width: 640px) {
+    #any_img{
+        width: 100px;
+        height: auto;
+    }
+
+    button{
+        font-size: 1.5rem;
+        height: 3rem;
+        width: 40%;
+    }
+
+    h1{
+        font-size: 1rem;
+    }
+}

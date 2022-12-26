@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <link rel="shortcut icon" href="images/android-chrome-192x192.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Find Password?</title>
+    
+</head>
+<body>
+    <div class="login_card">
+        <h2 style="color: rgb(240, 240, 240); text-align: center; font-family: 'Poppins', sans-serif; letter-spacing: 0.4rem; font-weight: 1200;">User Login</h2>
+        <form action="shoot.html" method="post">
+           <div class="main_container">
+            <div class="label">
+                <label for="name">Name</label> 
+                <label for="name">Password</label>
+            </div>
+    
+            <div class="input-boxes"> 
+                <div><input type="text" placeholder="Eg: John Smith" id="myname" required></div> 
+                <div class="password_check_container"><input style="display: inline-block;" required type="password" id="password" name="password" placeholder="Password" minlength="8"><span id="password_check" style="display: inline;">&#10004;</span></div>
+            </div>
+           </div>
+
+            <div class="submit"><a href="shoot.html" target="_blank"><input type="submit" value="submit" id="sub_btn"></a></div>
+        </form>
+
+    </div>
+
+    
+    <div class="rules">
+        <br><br><br>
+        <p style="text-emphasis: '.'; ">password criteria </p><br>
+        <p style="display: inline;" id="length" > 8 letters <p class="unsafe" style="display: inline;">&check;</p></p>
+        <p style="display: inline;" id="alphabet" > letter from a-z</p> <p class="unsafe" style="display: inline;">&#10004;</p><br>
+        <p style="display: inline;" id="u_alphabet" > Upper Case letter[A-Z]</p> <p class="unsafe" style="display: inline;">&#10004;</p><br>
+        <p style="display: inline;" id="letters" > number from [0-9]</p> <p class="unsafe" style="display: inline;">&#10004;</p><br>
+        <p style="display: inline;" id="len_12" > length > 12 recommended</p> <p class="unsafe_mod" style="display: inline;">&#10004;</p><br>
+        <p id="strength">password strength</p>
+    </div>
+    <script src="second.js"></script>
+    <script src="main.js"></script>
+
+    <footer>
+        <div class="footer">
+             <a href="https://github.com/Ajay-makeit" target="_blank" class="fa fa-github" style="font-size:36px;color:red"></a>            
+            <a href="https://linkedin.com/in/botchu-ajay" target="_blank" class="fa fa-linkedin" style="font-size:36px"></a>  
+            <a href="https://twitter.com/vcodewith" class="fa fa-twitter" target="_blank" style="font-size:36px"></a>  
+        </div>
+       </footer>
+</body>
+</html>
