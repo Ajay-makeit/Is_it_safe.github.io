@@ -99,5 +99,11 @@ myinput.onkeyup = function (){
     
 }
 
+function load_fun(){
+    
+    window.location.href="https://ajay-makeit.github.io/Is_it_safe.github.io/shoot.html";
+    console.log("hi");
+
+}
 
 
